@@ -1,0 +1,20 @@
+{
+  "plugins": {
+    "allow": ["mai-transcribe"],
+    "entries": {
+      "mai-transcribe": {
+        "enabled": true,
+        "config": {
+          "region": "eastus",
+          "apiKey": "<speech-api-key>",
+          "model": "mai-transcribe-1",
+          "apiVersion": "2025-10-15",
+          "maxFileSize": 26214400
+        }
+      }
+    },
+    "load": {
+      "paths": ["/absolute/path/to/openclaw-mai-transcribe-plugin"]
+    }
+  }
+}
