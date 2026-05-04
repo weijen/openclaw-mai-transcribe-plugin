@@ -1,8 +1,14 @@
 {
   "id": "mai-transcribe",
   "name": "MAI Transcribe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Speech-to-text transcription using Azure MAI-Transcribe-1.",
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": ["mai_transcribe"]
+  },
   "configSchema": {
     "type": "object",
     "additionalProperties": false,

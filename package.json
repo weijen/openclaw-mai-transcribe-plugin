@@ -1,6 +1,6 @@
 {
   "name": "openclaw-mai-transcribe-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "MAI-Transcribe-1 speech-to-text plugin for OpenClaw using Azure Speech",
   "main": "index.js",
